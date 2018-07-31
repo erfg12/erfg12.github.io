@@ -8,8 +8,8 @@ layout: default
 	
 	<img src="{{ post.banner }}">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-	  <span>{{ post.date | date_to_string }}</span>
+      <h1 style="color:#4183c4;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+	  <span>Posted: <i>{{ post.date | date_to_string }}</i></span>
 
       <div class="entry">
         {{ post.excerpt }}
