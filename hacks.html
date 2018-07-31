@@ -6,6 +6,6 @@ permalink: /hacks/
 
 {% for post in site.categories.hacks %}
 <img src="{{ post.banner }}">
-<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-<span>{{ post.date | date_to_string }}</span>
+<a href="{{ post.url }}"><h2 style="color:#4183c4;">{{ post.title }}</h2></a>
+<span>Posted: <i>{{ post.date | date_to_string }}</i></span>
 {% endfor %}
