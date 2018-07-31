@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Make Your Own Amiibo
-banner: 
+banner: https://d258qip9dwvby3.cloudfront.net/amiibo-banner.jpg
 categories: tutorials
 ---
 
