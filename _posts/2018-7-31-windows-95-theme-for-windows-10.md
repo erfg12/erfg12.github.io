@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Windows 95, 98, XP, Vista And 7 Themes For Windows 10
-banner: windows-9x-theme-banner.jpg
+banner: https://d258qip9dwvby3.cloudfront.net/windows-9x-theme-banner.jpg
 categories: tutorials
 ---
 
@@ -9,7 +9,7 @@ categories: tutorials
 
 >  All files must be permanently on your HDD. Do not delete them after customization!
 
-UPDATE: Want to change the boot screen? [I made this pack to customize it! Read the README.txt file given.](https://drive.google.com/open?id=0B4YtK9YXaHvQRkZKcjJIS0xQUm8)
+Want to change the boot screen? [I made this pack to customize it!](https://drive.google.com/open?id=0B4YtK9YXaHvQRkZKcjJIS0xQUm8)
 
 (You do need UEFI mode enabled with Secure Boot disabled.)
 
