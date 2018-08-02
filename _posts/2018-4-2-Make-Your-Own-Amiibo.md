@@ -7,7 +7,9 @@ categories: tutorials
 
 Amiibo figures are nothing more than NFC (Near Field Communication) chips and plastic. You can purchase NFC tags for very cheap. However, the Amiibo NFC chips are transmitting some encrypted code. But several developers have found ways to decrypt and use this data. They have uploaded their source code to GitHub. Lots of Android devices out there have the ability to read/write to NFC tags. So if we have an NTAG215 NFC tag and write the Amiibo data to it, we can claim it as our own on the console. Let’s get started!
 
-[![Play Video](https://img.youtube.com/vi/0a0FJKGbYcU/0.jpg)](https://youtu.be/0a0FJKGbYcU)
+<div class='video'>
+<a href='https://youtu.be/0a0FJKGbYcU' title='Click here to watch the video!' target='_BLANK'><i class="svg-icon youtube"></i><div class="play"></div><img src="https://img.youtube.com/vi/0a0FJKGbYcU/0.jpg" /></a>
+</div>
 
 ## REQUIREMENTS
 The Android app, unfixed-info.bin and locked-secret.bin files (DOWNLOAD BELOW)

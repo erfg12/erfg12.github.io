@@ -142,6 +142,36 @@ img {
     clear: both;
 }
 
+.video .play {
+  width: 100px;
+  height: 75px;
+  border-style: solid;
+  border-width: 45px;
+  border-color: transparent transparent transparent white;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+
+.video {
+  position: relative;
+  display: inline-block;
+  transition: transform 150ms ease-in-out;
+}
+a[href*="youtu"].video img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+.video i {
+  position: absolute;
+  top: 4%;
+  left: 2%;
+  background-size: cover;
+  width:80px;
+  height:80px;
+}
+
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
