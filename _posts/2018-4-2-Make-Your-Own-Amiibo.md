@@ -95,11 +95,11 @@ You can now use these NFC stickers on anything! I personally stuck them on to pr
 **A)** Download [this zip](https://storage.googleapis.com/newagesoldier_dot_com/Amiibo%20Print%20Templates.zip). Read the README.txt file in it.
 
 Don’t have an Android device with NFC capabilities? Here are some cheap ones on eBay.
-– If you buy these with bad IMEIs or cracked screens you can get them cheaper.
+> NOTE: If you buy these with bad IMEIs or cracked screens you can get them cheaper.
 
-– HTC EVO 4G LTE 16GB – $40 or less
-– LG Escape 2 H443 8GB (not unlocked) – $40 or less
-– LG Lucid 3 VS876 8GB – $40 or less
+* HTC EVO 4G LTE 16GB – $40 or less
+* LG Escape 2 H443 8GB (not unlocked) – $40 or less
+* LG Lucid 3 VS876 8GB – $40 or less
 
 [Tagmo app download.](https://github.com/HiddenRambler/TagMo/releases)
 
