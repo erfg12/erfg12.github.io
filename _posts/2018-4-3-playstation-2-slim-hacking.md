@@ -7,6 +7,10 @@ categories: tutorials
 
 This modification to your console will let you play backed up copies of PlayStation 1 and PlayStation 2 games. This tutorial is only for the slim model.
 
+<div class='video'>
+<a href='https://www.youtube.com/watch?v=mecgQqDgqpo' title='Click here to watch the video!' target='_BLANK'><i class="svg-icon youtube"></i><div class="play"></div><img src="https://img.youtube.com/vi/mecgQqDgqpo/0.jpg" /></a>
+</div>
+
 ## REQUIRED HARDWARE
 * Philips head (+) screwdriver
 * PS2 Memory card
