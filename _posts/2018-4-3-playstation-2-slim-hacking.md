@@ -34,4 +34,4 @@ Before we start, let’s make note of the 3 sensors that the PS2 slim uses to re
 
 7) Put the lid back on, put the screws back in. Put in the memory card to your PS2 console, start it up. You are now in FREE MCBOOT. Go to settings (bottom option), turn fast boot off, and go in to OCSD settings and “Skip Disc Boot” off.
 
-8) Test it out. Try the PS1 swap disk engine. Everything should work. Post a comment below if you have questions.
+8) Test it out. Try the PS1 swap disk engine. Everything should work.
