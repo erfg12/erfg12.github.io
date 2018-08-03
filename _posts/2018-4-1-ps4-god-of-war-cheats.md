@@ -2,7 +2,7 @@
 layout: post
 title: God Of War – PS4 Cheats
 banner: https://d258qip9dwvby3.cloudfront.net/gow-ps4-cheats-banner.jpg
-categories: tutorials
+categories: hacks
 ---
 
 Here are some cheat files that were being shared around for God of War for the Playstation 4. 
