@@ -5,10 +5,6 @@ banner: https://d258qip9dwvby3.cloudfront.net/super-smash-bros-xp-guide-banner.j
 categories: tutorials
 ---
 
-<div class='video'>
-<a href='https://www.youtube.com/watch?v=VQlyry4a6vA' title='Click here to watch the video!' target='_BLANK'><i class="svg-icon youtube"></i><div class="play"></div><img src="https://img.youtube.com/vi/VQlyry4a6vA/0.jpg" /></a>
-</div>
-
 There are 2 methods to setting up Super Smash Bros Legacy XP. The modded and non-modded methods.
 
 ## MODDED
@@ -27,3 +23,7 @@ NOTE: This is for non-modded Wii consoles. You do need a legitimate copy of Supe
 * Download the [Wii] 7z. Use WinRar to open it.
 * Place the contents of Smash Bros LXP [Wii] on the root of an SD card. You might need an SD card around 8GB.
 * Use Homebrew launcher to launch the Super Smash Bros. Legacy XP Launcher.
+
+<div class='video'>
+<a href='https://www.youtube.com/watch?v=VQlyry4a6vA' title='Click here to watch the video!' target='_BLANK'><i class="svg-icon youtube"></i><div class="play"></div><img src="https://img.youtube.com/vi/VQlyry4a6vA/0.jpg" /></a>
+</div>
