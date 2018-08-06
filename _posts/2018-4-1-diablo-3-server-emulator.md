@@ -15,7 +15,7 @@ PLEASE NOTE: To my knowledge this is a clean beta client, but you will be using 
 
 [DOWNLOAD SERVER EMULATOR NOW!](https://drive.google.com/open?id=0B4YtK9YXaHvQWmdxTnB0YlNOd2c)
 
-DOWNLOAD BETA GAME CLIENT! – [MEGA](https://mega.nz/#!Mc9TVApK!5RKmgCvbhNzlLdmCQYEiKjvrevyslX470LQ7sLDpK0c) | [GDRIVE](https://drive.google.com/open?id=0B4YtK9YXaHvQc1l0OUxfYnpvNU0)
+DOWNLOAD BETA GAME CLIENT! – [MEGA](https://mega.nz/#!Mc9TVApK!5RKmgCvbhNzlLdmCQYEiKjvrevyslX470LQ7sLDpK0c) - [GDRIVE](https://drive.google.com/open?id=0B4YtK9YXaHvQc1l0OUxfYnpvNU0)
 
 <div class='video'>
 <a href='https://www.youtube.com/watch?v=ppdLSg1sAc0' title='Click here to watch the video!' target='_BLANK'><i class="svg-icon youtube"></i><div class="play"></div><img src="https://img.youtube.com/vi/ppdLSg1sAc0/0.jpg" /></a>
