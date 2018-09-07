@@ -6,7 +6,7 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
 	
-	<a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.banner }}"></a>
+	<a href="{{ site.baseurl }}{{ post.url }}"></a>
 
       <h1 style="color:#4183c4;margin:0px;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 	  <span style="font-size:16px;">Posted: <i>{{ post.date | date_to_string }}</i> | Category: <i>{{ post.categories }}</i></span>
