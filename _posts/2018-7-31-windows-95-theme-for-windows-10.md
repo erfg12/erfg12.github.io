@@ -11,6 +11,8 @@ categories: tutorials
 
 Want to change the boot screen? [I made this pack to customize it!](https://drive.google.com/open?id=0B4YtK9YXaHvQRkZKcjJIS0xQUm8)
 
+Want AOL 4.0 browser emulated? [I made a Chromium web browser look like AOL 4.0!](https://github.com/erfg12/AOL_4.0_Emu)
+
 (You do need UEFI mode enabled with Secure Boot disabled.)
 
 <div class='video'>
