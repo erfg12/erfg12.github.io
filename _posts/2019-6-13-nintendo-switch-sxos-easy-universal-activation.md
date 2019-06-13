@@ -1,0 +1,12 @@
+---
+layout: post
+title: Nintendo Switch SX OS Easy Universal OS Activation System
+banner:
+categories: tutorials
+---
+
+I have a few Windows 10 PCs and a Macbook that I use for software development. Sometimes I need to update my Nintendo Switch games for my SX OS. I know there are some other meathods of transferring games, but this seems to be the fastest method. Also when updating SX OS the system needs to reboot as well.
+
+To activate SX OS you need some method of activating SX OS from the system's recovery mode. Some people can use an Android device or a Windows PC. But I find the easiest method is to use a web app called, "Fusee Web Launcher". I have only tried this in Chrome web browsers, but I'm sure other web browsers are supported. This method is very easy to use and can be used on Windows, MacOS and Linux.
+
+Give it a try at <a href="https://fusee-gelee.firebaseapp.com" target="_blank">fusee-gelee.firebaseapp.com</a>
