@@ -24,6 +24,8 @@ layout: default
 <script src="https://vjs.zencdn.net/7.5.5/video.js"></script>
 <script src="https://unpkg.com/@videojs/http-streaming@1.10.3/dist/videojs-http-streaming.min.js"></script>
 <script>
-	var player = videojs("vid1");
-	player.play();
+	options = {
+		autoplay: false
+	}
+	video = videojs('player', options);
 </script>
