@@ -13,9 +13,12 @@ If you would like to grab the source code or add it to your own Diablo 1 mod, ch
 
 Here is the final product:
 
-<div class='video'>
-<a href='https://www.youtube.com/watch?v=Ti4LgdTQ6cE' title='Click here to watch the video!' target='_BLANK'><i class="svg-icon youtube"></i><div class="play"></div><img src="https://img.youtube.com/vi/Ti4LgdTQ6cE/0.jpg" /></a>
-</div>
+<video-js id="vid1" width="600" height="300" class="vjs-default-skin" controls>
+	<source
+		src="https://newagesoldier.b-cdn.net/videos/diablo1_xbox_controller_mod/video.m3u8"
+		type="application/x-mpegURL"
+	/>
+</video-js>
 
 ![](https://newagesoldier.com/devilution/img/diablo_keyboard.jpg)
 
