@@ -13,7 +13,7 @@ If you would like to grab the source code or add it to your own Diablo 1 mod, ch
 
 Here is the final product:
 
-<video-js id="vid1" data-setup='{"fluid": true, "autoplay": false}' class="vjs-default-skin" controls>
+<video-js data-setup='{"fluid": true, "autoplay": false}' class="video-js vjs-default-skin vjs-big-play-centered" controls preload>
 	<source
 		src="https://newagesoldier.b-cdn.net/videos/diablo1_xbox_controller_mod/video.m3u8"
 		type="application/x-mpegURL"
