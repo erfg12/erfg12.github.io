@@ -21,12 +21,11 @@ layout: default
 	{% include disqus.html %}
 </article>
 
-<script src="https://vjs.zencdn.net/7.5.5/video.js"></script>
-<script src="https://unpkg.com/@videojs/http-streaming@1.10.3/dist/videojs-http-streaming.min.js"></script>
+<script async src="https://vjs.zencdn.net/7.5.5/video.js"></script>
 <script>
 	options = {
 		autoplay: false,
 		preload: "auto"
-	}
-	video = videojs('player', options);
+	};
+	video = videojs("player", options);
 </script>
