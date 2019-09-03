@@ -23,10 +23,11 @@ layout: default
 	</div>
 
 	<div class="date">Written on {{ page.date | date: "%B %e, %Y" }}</div>
-
-	{% for tag in page.tags %}
+	<hr />
+	Tags: {% for tag in page.tags %}
 	<a href="../tag/{{ tag }}"> {{ tag }} </a>
-	{% endfor %} {% include disqus.html %}
+	{% if forloop.last %}{% else %},{% endif %} {% endfor %} {% include
+	disqus.html %}
 </article>
 
 <script async src="https://vjs.zencdn.net/7.5.5/video.js"></script>
