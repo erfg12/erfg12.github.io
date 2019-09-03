@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nintendo Switch SX OS Easy Universal OS Activation System
-banner:
+tags: [Nintendo, Switch, SX OS]
 categories: tutorials
 ---
 

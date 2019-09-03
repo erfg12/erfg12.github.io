@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Make Your Own Amiibo
-banner:
+tags: [Nintendo, Amiibo]
 categories: tutorials
 ---
 

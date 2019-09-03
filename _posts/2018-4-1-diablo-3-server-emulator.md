@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Diablo 3 Server Emulator
-banner: https://d258qip9dwvby3.cloudfront.net/Diablo-33-compressor.jpg
+tags: [Diablo, Blizzard]
 categories: tutorials
 ---
 

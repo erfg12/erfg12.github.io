@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Windows 95, 98, XP, Vista And 7 Themes For Windows 10
-banner:
 categories: tutorials
+tags: [Windows, Microsoft]
 ---
 
 The zip packages on this page have assets and documents for theming a Windows 10 computer to look like an older operating system. Watch the YouTube video and read the documentation provided to get an understanding of how this process works. If at any time you want to undo the theme, simply follow the process backwards. For example, uninstalling Windows Classic Shell or restoring the desktop icons or changing the desktop wallpaper back to whatever you had prior to this process. None of this will be perminant, everything can easily be undone.
@@ -21,6 +21,7 @@ NOTE: These zip packages are specifically for Windows 10. All files must be perm
 
 [Windows 95 & 98 Theme Files](https://newagesoldier.b-cdn.net/downloads/WIN%209X%20THEME.zip)
 
-Want to change the boot screen? [I made this pack to customize it!](https://newagesoldier.b-cdn.net/downloads/win10%20bootup%20screen%20changer.zip) NOTE: You do need UEFI mode enabled with Secure Boot disabled for this to function.
+Want to change the boot screen? [I made this pack to customize it!](https://newagesoldier.b-cdn.net/downloads/win10%20bootup%20screen%20changer.zip)
+**NOTE:** You do need UEFI mode enabled with Secure Boot disabled for this to function.
 
-Want an America Online web browser? [I made a Chromium web browser look like AOL 4.0!](https://github.com/erfg12/AOL_4.0_Emu)
+Want an America Online web browser? [I made a Chromium web browser look like AOL!](https://github.com/erfg12/AOL_4.0_Emu)

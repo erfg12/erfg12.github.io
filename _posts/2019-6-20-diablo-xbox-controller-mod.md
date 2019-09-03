@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Diablo 1 Xbox Controller & Keyboard Mod
-banner:
+tags: [Diablo, Xbox, PC]
 categories: hacks
 ---
 

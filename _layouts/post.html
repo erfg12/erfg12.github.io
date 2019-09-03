@@ -24,7 +24,9 @@ layout: default
 
 	<div class="date">Written on {{ page.date | date: "%B %e, %Y" }}</div>
 
-	{% include disqus.html %}
+	{% for tag in tags %}
+	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
+	{% endfor %} {% include disqus.html %}
 </article>
 
 <script async src="https://vjs.zencdn.net/7.5.5/video.js"></script>
