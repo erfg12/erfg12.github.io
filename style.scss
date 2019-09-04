@@ -24,7 +24,7 @@ body {
 }
 
 #archives {
-	min-height:675px;
+	min-height: 665px;
 }
 
 .container {
@@ -287,6 +287,10 @@ nav {
 //
 // .main
 //
+
+#main {
+	min-height: 665px;
+}
 
 .page {
 	padding-right: 10px;
