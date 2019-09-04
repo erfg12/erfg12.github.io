@@ -3,6 +3,9 @@ layout: post
 title: Windows 95, 98, XP, Vista And 7 Themes For Windows 10
 categories: tutorials
 tags: [Windows, Microsoft]
+redirect_from:
+  - "/windows-xp-theme-for-windows-10/"
+  - "/windows-vista-theme-for-windows-10/"
 ---
 
 The zip packages on this page have assets and documents for theming a Windows 10 computer to look like an older operating system. Watch the YouTube video and read the documentation provided to get an understanding of how this process works. If at any time you want to undo the theme, simply follow the process backwards. For example, uninstalling Windows Classic Shell or restoring the desktop icons or changing the desktop wallpaper back to whatever you had prior to this process. None of this will be perminant, everything can easily be undone.
