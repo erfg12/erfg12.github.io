@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nintendo Switch SX OS How To Not Get Banned
-Tags: [Nintendo, Switch, SX OS]
+tags: [Nintendo, Switch, SX OS]
 categories: tutorials
 ---
 

@@ -1,0 +1,50 @@
+I"4<p>Few people these days have dial up internet. Most everyone has ethernet cables with broadband, which leaves older technology behind. Even with the addition of the broadband adapter, you will not be able to play some games that require the dial up modem. Luckily there is a new developer out there to bring the Dreamcast back online with the use of a Raspberry Pi!</p>
+
+<div class="video">
+<a href="https://www.youtube.com/watch?v=KOo5Kay9fcU" title="Click here to watch the video!" target="_BLANK"><i class="svg-icon youtube"></i><div class="play"></div><img src="https://img.youtube.com/vi/KOo5Kay9fcU/0.jpg" /></a>
+</div>
+
+<h2 id="required-materials">Required Materials</h2>
+
+<ul>
+  <li>Raspberry Pi (used model A in example)</li>
+  <li>RJ-11 Phone Data/Voice Wire</li>
+  <li>330 Ohm Resistor</li>
+  <li>330 ohm 1/4W 5% Carbon Film Resistor</li>
+  <li>Heavy-Duty 9V Snap Connector</li>
+  <li>9v Battery</li>
+  <li>Soldering Iron and Solder</li>
+  <li>Wire Strippers</li>
+  <li>Kazade’s SD Card Image</li>
+  <li>Win32 Disk Imager</li>
+  <li>RJ-45 ethernet cable for your Raspberry Pi</li>
+  <li>Fax to USB modem adapter</li>
+  <li>Disc Juggler</li>
+  <li>Dreamcast Web Browser (US) (Europe)</li>
+  <li>Blank CD-R’s for burning. You will need a CD burner as well.</li>
+</ul>
+
+<h2 id="setup-instructions">Setup Instructions</h2>
+
+<ul>
+  <li>Take your RJ-11 Voice/Data cable and cut it open about 4-5 inches and cut the inside red wire. Use your wire strippers to strip the ends of this red wire. Solder the 1UF capacitor to one end of the red wire and solder the red 9v snap connector on to that same end. Now on the other end of the RJ-11 red cable you will solder both the other end of the 1UF capacitor and the 330 ohm 1/4w resistor. On the other end of the resistor you will solder the black 9v snap connector cable. Once finished, it should look like this.</li>
+  <li>Use Disc Juggler to burn your Planetweb or Dreamkey web browser CDI. Follow this video.</li>
+  <li>Use WIN32 Disk Imager to write Kazade’s SD card image to your SD card for your Raspberry Pi. Plug in your Raspberry Pi’s RJ-45 ethernet cable and your fax to USB modem with your new RJ-11 cable. You can plug in the Raspberry Pi’s power to turn it on.</li>
+  <li>Plug in your RJ-11 cable in to your Dreamcast, put in the Planetweb or Dreamkey burnt disc and turn it on. We will now be setting up the modem. Once you set up your modem, you are ready to play online! Follow Kazade’s thread on AssemblerGames.com to watch for upcoming updates.</li>
+</ul>
+
+<h2 id="modem-settings">Modem Settings</h2>
+
+<ul>
+  <li>User Login: dream</li>
+  <li>Password: dreamcast</li>
+  <li>Dial Up Number: 555</li>
+  <li>DNS1: 0.0.0.0</li>
+  <li>DNS2: 0.0.0.0</li>
+  <li>Modem Init: AT&amp;F0</li>
+  <li>Dial: Tone</li>
+  <li>Dial Area Code: Off</li>
+  <li>Blind Dial: On</li>
+  <li>Proxy: No</li>
+</ul>
+:ET

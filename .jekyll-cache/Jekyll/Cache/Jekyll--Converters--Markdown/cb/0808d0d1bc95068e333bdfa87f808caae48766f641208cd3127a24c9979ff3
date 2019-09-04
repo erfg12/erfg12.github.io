@@ -1,0 +1,56 @@
+I"Å<p>When I was trying to play Diablo 1 on my GPD Win I thought there has to be a way to incorporate controller support, similar to the Playstation 1 port. I remembered that there was an open source reverse engineered project for Diablo 1 called Devilution, so I figured that would be a good starting place for this project. After forking the repo, I started by getting familiar with the code base and creating new functions for how I would imagine this system working.</p>
+
+<p>Things like detecting nearby items, monsters, towners, etc and being able to interact with them. Or, moving the cursor through the inventory and skills tree system and selecting what item or skill I need. So I created 4 new files. plrctrls.cpp/.h and joystick.cpp/.h and marking my code with //JAKE to make adding this modification for other Diablo 1 mods easy.</p>
+
+<p>If you would like to grab the source code or add it to your own Diablo 1 mod, check it out at <a href="https://github.com/erfg12/devilution">https://github.com/erfg12/devilution</a></p>
+
+<p>Here is the final product:</p>
+
+<video-js data-setup="{&quot;fluid&quot;: true, &quot;autoplay&quot;: false}" class="video-js vjs-default-skin vjs-big-play-centered" controls="" preload="">
+	<source src="https://newagesoldier.b-cdn.net/videos/diablo1_xbox_controller_mod/video.m3u8" type="application/x-mpegURL" />
+</video-js>
+
+<p><img src="https://newagesoldier.com/devilution/img/diablo_keyboard.jpg" alt="" /></p>
+
+<p><img src="https://newagesoldier.com/devilution/img/diablo_controller.jpg" alt="" /></p>
+
+<h2 id="new-keyboard-setup">New Keyboard Setup</h2>
+
+<ul>
+  <li>Spacebar - Attack nearby enemies, talk to towns people and merchants. Pickup &amp; Drop items in inventory.</li>
+  <li>Enter - Pickup gold, potions &amp; equipment from ground, open chests and doors that are nearby.</li>
+  <li>Arrow Keys and WASD Keys - Move character in that direction. Move cursor in inventory &amp; speedbook.</li>
+  <li>X Key - Cast spell or use skill. Back out of menus.</li>
+  <li>Q Key - Use first health potion in belt.</li>
+  <li>E Key - Use first mana potion in belt.</li>
+  <li>Moved Speedbook key to H.</li>
+</ul>
+
+<h2 id="new-functions">New Functions</h2>
+
+<ul>
+  <li>Automap only moves when you hold down shift.</li>
+  <li>Towns people, items and objects show information when nearby.</li>
+  <li>Inventory snaps to grid system, use arrow/WASD keys to move around. Spacebar to pickup/drop items.</li>
+  <li>Speedbook spells have snap grid system, use arrow/WASD keys to move around. Spacebar to select spell.</li>
+  <li>Character info window level up attribute increase buttons now make cursor snap to them.</li>
+  <li>Xbox One &amp; 360 controller support added.</li>
+</ul>
+
+<h2 id="xbox-controller-button-layout">Xbox Controller Button Layout</h2>
+
+<ul>
+  <li><strong>A Button:</strong> Attack nearby enemies, talk to towns people and merchants, confirm menu clicks.</li>
+  <li><strong>B Button:</strong> Open inventory</li>
+  <li><strong>X Button:</strong> Pickup gold, potions &amp; equipment from ground, open chests and doors that are nearby.</li>
+  <li><strong>Y Button:</strong> Cast spell or use skill. Back out of menus.</li>
+  <li><strong>Back Button:</strong> Open automap.</li>
+  <li><strong>Start Button:</strong> Open game menu.</li>
+  <li><strong>Left Shoulder Button:</strong> Open the speed spell book.</li>
+  <li><strong>Right Shoulder Button:</strong> Open character info window.</li>
+  <li><strong>Direction Pad</strong> &amp; <strong>Left Joystick:</strong> Move character.</li>
+  <li><strong>Right Joystick:</strong> Move Cursor. Click for mouse left click.</li>
+  <li><strong>Left Trigger:</strong> Use first health potion in belt.</li>
+  <li><strong>Right Trigger:</strong> Use first mana potion in belt.</li>
+</ul>
+:ET

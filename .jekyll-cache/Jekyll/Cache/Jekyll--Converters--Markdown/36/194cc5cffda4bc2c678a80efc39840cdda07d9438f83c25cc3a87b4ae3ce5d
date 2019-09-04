@@ -1,0 +1,17 @@
+I"­<p>The Playstation 4 jailbreak is similar to the PSVita in that you use the webkit to exploit the console and make running your own arbitrary code on the system a reality. For this to work you need to be on a specific firmware version.</p>
+
+<h3 id="here-is-a-list-of-firmware-versions-supported">Here is a list of firmware versions supported:</h3>
+
+<ul>
+  <li>1.76</li>
+  <li>4.05</li>
+  <li>4.55</li>
+  <li>5.01</li>
+  <li>5.05</li>
+  <li>5.07</li>
+</ul>
+
+<p>My favorite website to visit to start this exploit system is <a href="http://ps4exploits.darksoftware.xyz/">http://ps4exploits.darksoftware.xyz</a>. So if your console is on one of the firmwares above (mine is on 5.05), go to your web browser and visit this URL. For me, I will select 5.05 and HEN+Mira (aka MiraHEN). Several prompts later you will be jailbroken temporarily! Now you can load homebrew and game backups on to your console and play them. Once you shut your console off, you will need to visit the website again otherwise your homebrew and game backups will not launch and instead give you an error message.</p>
+
+<p>If youâ€™re on a lower firmware you can update to 5.05 by using a <a href="https://gbatemp.net/threads/ps4-firmware-collection.447573/">USB thumbdrive with a .PUP file</a> and <a href="https://www.playstation.com/en-gb/get-help/help-library/system---hardware/power---system-stability/safe-mode-on-playstation-4/">accessing safe mode</a> to update the system.</p>
+:ET
