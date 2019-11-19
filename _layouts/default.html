@@ -2,8 +2,8 @@
 <html>
 	<head>
 		<title>
-			{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} –
-			{{ site.description }}
+			{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{
+			site.description }}
 		</title>
 
 		{% include meta.html %} {% include advertisements.html %}
@@ -41,7 +41,6 @@
 					</div>
 
 					<nav>
-						<a href="{{ site.baseurl }}/blog">» Blog</a>
 						<a href="{{ site.baseurl }}/tutorials">» Tutorials</a>
 						<a href="{{ site.baseurl }}/hacks">» Hacks</a>
 					</nav>
