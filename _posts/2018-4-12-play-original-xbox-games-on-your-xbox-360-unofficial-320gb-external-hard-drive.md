@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Player Original Xbox Games On Your XBox 360 Unofficial Hard Drive
+title: Play Original Xbox Games On Your XBox 360 Unofficial Hard Drive
 tags: [Xbox, Microsoft]
 categories: tutorials
 ---
