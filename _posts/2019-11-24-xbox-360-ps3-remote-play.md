@@ -18,4 +18,4 @@ categories: tutorials
 - Be sure to have your controller plugged in (GPDWin Xbox controller switched on) prior to launching the GIMX Launcher software.
 - Launch the GIMX host PC software first, then the client software after. Leave the command windows open as this is your live client/host connection. If you close them, it will break the connection.
 
-<iframe style="width:100%;" src="https://www.youtube.com/embed/dTs2hRjXhe8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe onload="this.style.height=this.contentDocument.body.scrollHeight +'px';" src="https://www.youtube.com/embed/dTs2hRjXhe8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
