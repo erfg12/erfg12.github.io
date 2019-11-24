@@ -6,10 +6,10 @@ categories: tutorials
 ---
 
 ## Required Hardware
-1) 0 latency HDMI input device (Elgato Cam Link, HD60S, etc.)
-2) GIMX cable
-3) Xbox360 - Wired Xbox 360 controller for authentication purposes
-4) PS3 - HDCP stripping tool
+1. 0 latency HDMI input device (Elgato Cam Link, HD60S, etc.)
+2. GIMX cable
+3. Xbox360 - Wired Xbox 360 controller for authentication purposes
+4. PS3 - HDCP stripping tool
 
 ## Instructions
 - If you made the <a href="https://gimx.fr/wiki/index.php?title=DIY_USB_adapter_for_dummies" target="_BLANK">GIMX dummy cable</a>, you'll have to write the PS3 or Xbox360 firmware to the board depending on which console you wish to remote into.
@@ -18,4 +18,4 @@ categories: tutorials
 - Be sure to have your controller plugged in (GPDWin Xbox controller switched on) prior to launching the GIMX Launcher software.
 - Launch the GIMX host PC software first, then the client software after. Leave the command windows open as this is your live client/host connection. If you close them, it will break the connection.
 
-<iframe width="100%" src="https://www.youtube.com/embed/dTs2hRjXhe8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="width:100%;" src="https://www.youtube.com/embed/dTs2hRjXhe8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
