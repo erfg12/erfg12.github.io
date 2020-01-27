@@ -5,8 +5,6 @@ tags: [cheatengine]
 categories: hacks
 ---
 
-## Required Hardware
-
 If you have used a Windows computer before, you know that Cheat Engine is one of the best tools for creating and sharing personal cheats for PC games with other users. Several years back there was a MacOS version made, but it lacked all the more useful functionality of the PC version. Since the Patreon for Cheat Engine was created, DarkByte, the author of Cheat Engine, has promised the MacOS version will be updated. Well just a few days ago he delivered on that promise!
 
 If you are a member of his Patreon, you now have access to the Alpha 7.1 build of Cheat Engine for MacOS. It has almost all of the same features from the PC version. Not including any .DLL specific functions as those are Windows library files. Be aware the Alpha build is quite buggy and has crashed for me quite a few times. But it is being worked on and you will get an early peek at what is being made if you [join the Cheat Engine Patreon](https://www.patreon.com/cheatengine/posts).
