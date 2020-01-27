@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Cheat Engine 7.1 Alpha for MacOS
-tags: [cheatengine]
+tags: [Cheat Engine, Mac]
 categories: hacks
 ---
 
