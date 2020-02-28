@@ -7,6 +7,18 @@ categories: tutorials
 
 Ever since I was young I wanted to play a single player version of EverQuest. Well today, I did just that, and I'm going to show you how you can too!
 
+### Benefits
+* Remove corpse retrieving
+* Remove experience loss upon death
+* Remove unmemorize spells upon death
+* Higher HP/MANA/STA regen
+* Soul bind anywhere
+* Reduce NPC running away at low HP
+* Higher hit chance
+* Remove NPC bonuses
+* Reduce stun chance
+* Other minor adjustments
+
 ### Steps
 
 1. [Install EQEmu](https://eqemu.gitbook.io/server/categories/how-to-guides/installation/server-installation-windows)  - This is our EverQuest server.
