@@ -7,6 +7,8 @@ categories: tutorials
 
 Ever since I was young I wanted to play a single player version of EverQuest. Well today, I did just that, and I'm going to show you how you can too!
 
+<iframe width="100%" style="min-height:350px;" src="https://www.youtube.com/embed/Uj_jZQqjRHE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Benefits
 * Remove corpse retrieving
 * Remove experience loss upon death
