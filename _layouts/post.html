@@ -2,17 +2,25 @@
 layout: default
 ---
 
-<div style="font-size:12px !important;margin-left:10px;">
-	<a href="../" style="font-size:12px !important;color:#7F7F7F !important;"
-		>Home</a
+<div
+	style="
+		font-size: 12px !important;
+		margin-left: 10px;
+		border: thin solid black;
+		width: 100%;
+	"
+>
+	<a href="../" style="font-size: 16px !important; color: #7f7f7f !important;"
+		><div style="border: thin solid black; padding: 10px;">HOME</div></a
 	>
-	>
+	»
 	<a
 		href="../{{ page.categories }}"
-		style="font-size:12px !important;color:#7F7F7F !important;"
-		>{{ page.categories }}</a
+		style="font-size: 16px !important; color: #7f7f7f !important;"
+		><div style="border: thin solid black; padding: 10px;">
+			{{ page.categories }}
+		</div></a
 	>
-	> {{ page.title }}
 </div>
 
 <article class="post">
@@ -29,9 +37,8 @@ layout: default
 
 	<hr />
 	<b>◙</b> <span class="date">Tags:</span> {% for tag in page.tags %}
-	<a href="../tag/{{ tag }}">{{ tag }}</a
-	>{% if forloop.last %}{% else %}, {% endif %} {% endfor %} {% include
-	disqus.html %}
+	<a href="../tag/{{ tag }}">{{ tag }}</a>{% if forloop.last %}{% else %}, {%
+	endif %} {% endfor %} {% include disqus.html %}
 </article>
 
 <link href="//vjs.zencdn.net/5.4.6/video-js.min.css" rel="stylesheet" />
