@@ -1,20 +1,22 @@
 {
-	"lang": "en-us",
-	"name": "New Age Soldier",
-	"scope": "/",
-	"display": "standalone",
-	"start_url": "https://newagesoldier.com",
-	"short_name": "NewAge",
-	"theme_color": "transparent",
-	"description": "Hacking and Modding Tutorials",
-	"orientation": "any",
-	"background_color": "transparent",
-	"related_applications": [],
-	"prefer_related_applications": false,
-	"icons": [
-		{
-			"src": "favicon.ico",
-			"sizes": "72x72 96x96 128x128 256x256"
-		}
-	]
+    "lang": "en-us",
+    "name": "New Age Soldier",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "https://newagesoldier.com/",
+    "short_name": "NewAge",
+    "theme_color": "transparent",
+    "description": "Hacking and Modding Tutorials",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/favicon.ico",
+            "sizes": "72x72 96x96 128x128 256x256"
+        }
+    ],
+    "url": "https://newagesoldier.com",
+    "screenshots": []
 }
