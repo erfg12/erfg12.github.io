@@ -2,26 +2,19 @@
 layout: default
 ---
 
-<div
-	style="
+<div style="
 		font-size: 12px !important;
 		margin-left: 10px;
-		border: thin solid black;
 		width: 90%;
 		padding: 10px;
-	"
->
-	<a href="../" style="font-size: 16px !important; color: #7f7f7f !important;"
-		><span style="border: thin solid black; padding: 10px;">HOME</span></a
-	>
-	»
-	<a
-		href="../{{ page.categories }}"
-		style="font-size: 16px !important; color: #7f7f7f !important;"
-		><span style="border: thin solid black; padding: 10px;">
+	">
+	<a href="../" style="font-size: 16px !important; color: white !important;"><span
+			style="border: thin solid black; padding: 10px; background-color:#069;">HOME</span></a>
+	<span style="font-size:30px;">»</span>
+	<a href="../{{ page.categories }}" style="font-size: 16px !important; color: white !important;"><span
+			style="border: thin solid black; padding: 10px; background-color:#069;">
 			{{ page.categories }}
-		</span></a
-	>
+		</span></a>
 </div>
 
 <article class="post">
