@@ -1,12 +1,94 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<html>
 
-<article class="page">
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{
+			site.description }}</title>
 
-  <h1>{{ page.title }}</h1>
+    {% include meta.html %} {% include advertisements.html %}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+  </head>
 
-  <div class="entry">
-    {{ content }}
-  </div>
-</article>
+  <body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+      <!-- Header -->
+      <header id="header">
+        <h1><a href="{{ site.baseurl }}/">New Age Soldier</a></h1>
+        <nav class="links">
+          <ul>
+            <li><a href="{{ site.baseurl }}/tutorials">Tutorials</a></li>
+            <li><a href="{{ site.baseurl }}/hacks">Hacks</a></li>
+          </ul>
+        </nav>
+        <nav class="main">
+          <ul>
+            <li class="search">
+              <a class="fa-search" href="#search">Search</a>
+              <form id="search" method="get" action="#">
+                <input type="text" name="query" placeholder="Search" />
+              </form>
+            </li>
+            <li class="menu">
+              <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Menu -->
+      <section id="menu">
+
+        {% include menu.html %}
+
+      </section>
+
+      <!-- Main -->
+      <div id="main">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+
+      </div>
+
+      <!-- Sidebar -->
+      <section id="sidebar">
+
+        <!-- Intro -->
+        <section id="intro">
+          <a href="#" class="logo"><img src="{{ site.baseurl }}/images/logo.svg" alt="" /></a>
+          <header>
+            <h2>New Age Soldier</h2>
+            <p>A New Age of Technology</p>
+          </header>
+        </section>
+
+        <!-- Mini Posts -->
+        <section>
+          <div class="mini-posts">
+
+            {% include widget_latest.html %}
+
+          </div>
+        </section>
+
+        <!-- Footer -->
+        {% include footer.html %}
+
+      </section>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/browser.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/breakpoints.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/util.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+
+  </body>
+
+</html>

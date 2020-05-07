@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div style="
+		font-size: 12px !important;
+		margin-left: 10px;
+		width: 90%;
+		padding: 10px;
+	">
+	<a href="../" style="font-size: 16px !important; color: white !important;"><span
+			style="border: thin solid black; padding: 10px; background-color:#069;">HOME</span></a>
+	<span style="font-size:30px;">»</span>
+	<a href="../{{ page.categories }}" style="font-size: 16px !important; color: white !important;"><span
+			style="border: thin solid black; padding: 10px; background-color:#069;">
+			{{ page.categories }}
+		</span></a>
+</div>
+
+<article class="post">
+	<h1>{{ page.title }}</h1>
+
+	<div class="entry">
+		{{ content }}
+	</div>
+
+	<div>
+		<b>♫</b>
+		<span class="date">Written on {{ page.date | date: "%B %e, %Y" }}</span>
+	</div>
+
+	<hr />
+	<b>◙</b> <span class="date">Tags:</span> {% for tag in page.tags %}
+	<a href="../tag/{{ tag }}">{{ tag }}</a>{% if forloop.last %}{% else %}, {%
+	endif %} {% endfor %} {% include disqus.html %}
+</article>
+
+<link href="//vjs.zencdn.net/5.4.6/video-js.min.css" rel="stylesheet" />
+<script src="//vjs.zencdn.net/5.4.6/video.min.js"></script>

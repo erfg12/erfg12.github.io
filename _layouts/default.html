@@ -1,87 +1,94 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
+
 	<head>
-		<title>
-			{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{
-			site.description }}
-		</title>
+		<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{
+			site.description }}</title>
 
 		{% include meta.html %} {% include advertisements.html %}
-
-		<!--[if lt IE 9]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-
-		<link rel="stylesheet" href="../../style.css" />
-		<link
-			rel="alternate"
-			type="application/rss+xml"
-			title="{{ site.name }} - {{ site.description }}"
-			href="{{ site.baseurl }}/feed.xml"
-		/>
-		<link
-			href="https://vjs.zencdn.net/7.3.0/video-js.min.css"
-			rel="stylesheet"
-		/>
-		<script src="manup.js"></script>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 
-	<body>
-		<div class="wrapper-masthead">
-			<div class="container">
-				<header class="masthead clearfix">
-					<a href="{{ site.baseurl }}/" class="site-avatar"
-						><img src="../{{ site.avatar }}"
-					/></a>
+	<body class="is-preload">
 
-					<div class="site-info">
-						<h1 class="site-name">
-							<a href="{{ site.baseurl }}/">{{ site.name }}</a>
-						</h1>
-						<p class="site-description">{{ site.description }}</p>
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<h1><a href="{{ site.baseurl }}/">New Age Soldier</a></h1>
+				<nav class="links">
+					<ul>
+						<li><a href="{{ site.baseurl }}/tutorials">Tutorials</a></li>
+						<li><a href="{{ site.baseurl }}/hacks">Hacks</a></li>
+					</ul>
+				</nav>
+				<nav class="main">
+					<ul>
+						<li class="search">
+							<a class="fa-search" href="#search">Search</a>
+							<form id="search" method="get" action="#">
+								<input type="text" name="query" placeholder="Search" />
+							</form>
+						</li>
+						<li class="menu">
+							<a class="fa-bars" href="#menu">Menu</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Menu -->
+			<section id="menu">
+
+				{% include menu.html %}
+
+			</section>
+
+			<!-- Main -->
+			<div id="main">
+
+				{{ content }}
+
+			</div>
+
+			<!-- Sidebar -->
+			<section id="sidebar">
+
+				<!-- Intro -->
+				<section id="intro">
+					<a href="#" class="logo"><img src="images/logo.svg" alt="" /></a>
+					<header>
+						<h2>New Age Soldier</h2>
+						<p>A New Age of Technology</p>
+					</header>
+				</section>
+
+				<!-- Mini Posts -->
+				<section>
+					<div class="mini-posts">
+
+						{% include widget_latest.html %}
+
 					</div>
+				</section>
 
-					<nav>
-						<a href="{{ site.baseurl }}/tutorials">» Tutorials</a>
-						<a href="{{ site.baseurl }}/hacks">» Hacks</a>
-					</nav>
-				</header>
-				{% include search-lunr.html %}
-			</div>
+				<!-- Footer -->
+				{% include footer.html %}
+
+			</section>
+
 		</div>
 
-		<div id="main" role="main" class="container">
-			{{ content }}
-		</div>
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 
-		<div class="wrapper-footer">
-			<div class="container">
-				<footer class="footer">
-					{% include svg-icons.html %}
-				</footer>
-			</div>
-		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script>
-			// CODELAB: Register service worker.
-			if ("serviceWorker" in navigator) {
-				window.addEventListener("load", () => {
-					navigator.serviceWorker.register("/pwabuilder-sw.js").then((reg) => {
-						console.log("Service worker registered.", reg);
-					});
-				});
-			}
-		</script>
-		<script type="module">
-			import "https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate";
-
-			const el = document.createElement("pwa-update");
-			document.body.appendChild(el);
-		</script>
-		<script
-			type="module"
-			src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"
-		></script>
-		{% include analytics.html %} {% include lightbox.html %}
 	</body>
+
 </html>

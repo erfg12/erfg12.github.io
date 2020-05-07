@@ -4,20 +4,28 @@ permalink: /categories/
 title: Categories
 ---
 
-<div id="archives">
 {% for category in site.categories %}
-  <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
-    
-    <h3 class="category-head">{{ category_name }}</h3>
-    <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
-    {% endfor %}
-  </div>
+<article class="post">
+  <header>
+    <div class="title">
+      <h2><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></h2>
+    </div>
+    <div class="meta">
+      <time class="published" datetime="{{ post.date | date_to_string }}">{{ post.date | date_to_string }}</time>
+      <a href="#" class="author"><span class="name">Jake</span><img src="../images/avatar.jpg" alt="" /></a>
+    </div>
+  </header>
+  <a href="{{ site.baseurl }}/{{ post.url }}" class="image featured"><img src="../images/pic02.jpg" alt="" /></a>
+  <p>{{ post.excerpt }}</p>
+  <footer>
+    <ul class="actions">
+      <li><a href="{{ site.baseurl }}/{{ post.url }}" class="button large">Continue Reading</a></li>
+    </ul>
+    <ul class="stats">
+      <li><a href="#">{{ post.categories }}</a></li>
+      <li><a href="#" class="icon solid fa-heart">28</a></li>
+      <li><a href="#" class="icon solid fa-comment">128</a></li>
+    </ul>
+  </footer>
+</article>
 {% endfor %}
-</div>

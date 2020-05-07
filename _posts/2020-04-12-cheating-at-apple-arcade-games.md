@@ -11,4 +11,4 @@ Because Apple Arcade games are playable on Apple TV, iOS, iPadOS, and MacOS we c
 
 You use Cheat Engine like you would on Windows. Here is a YouTube video explaining the process:
 
-<iframe src="https://www.youtube.com/embed/3GfSLo14a2c" style="width:100%;min-height:500px;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/3GfSLo14a2c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

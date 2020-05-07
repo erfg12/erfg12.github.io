@@ -1,0 +1,63 @@
+---
+layout: default
+redirect_from:
+  - "/download/steam-save-backup"
+  - "/admin"
+  - "/memory-hacker"
+  - "/memory.dll"
+  - "/yts-api-pwa"
+---
+
+<a href="./hacks"><h1>HACKS</h1></a>
+<div class="cat-posts">
+	{% assign hack-posts = site.posts | where: "categories","hacks" %} {% for post
+	in hack-posts limit:6 %}
+	<div class="cat-post-container">
+		<a href="{{ site.baseurl }}{{ post.url }}">
+			<article class="cat-post">
+				<h4 style="color:#4183c4;margin:0px;">
+					{{ post.title }}
+				</h4>
+			</article>
+		</a>
+	</div>
+	{% endfor %}
+</div>
+
+<a href="./tutorials"><h1>TUTORIALS</h1></a>
+<div class="cat-posts">
+	{% assign hack-posts = site.posts | where: "categories","tutorials" %} {% for
+	post in hack-posts limit:6 %}
+	<div class="cat-post-container">
+		<a href="{{ site.baseurl }}{{ post.url }}">
+			<article class="cat-post">
+				<h4 style="color:#4183c4;margin:0px;">
+					{{ post.title }}
+				</h4>
+			</article>
+		</a>
+	</div>
+	{% endfor %}
+</div>
+
+<h1>NEWEST POSTS</h1>
+<hr />
+<div class="posts">
+	{% for post in site.posts limit:15 %}
+	<article class="post">
+		<h1 style="color:#4183c4;margin:0px;">
+			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		</h1>
+		<span style="font-size:16px;"
+			>Posted: <i>{{ post.date | date_to_string }}</i> | Category:
+			<i>{{ post.categories }}</i></span
+		>
+
+		<div class="entry">
+			{{ post.excerpt }}
+		</div>
+
+		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+	</article>
+	{% endfor %}
+</div>
