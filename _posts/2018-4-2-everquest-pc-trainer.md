@@ -3,6 +3,7 @@ layout: post
 title: EverQuest – PC Trainer
 tags: [Cheats, EverQuest, Sony, PC]
 categories: hacks
+banner: everquest-banner.jpg
 ---
 
 Currently for EQEmu servers; Titanium, Mac, RoF, etc. game clients.

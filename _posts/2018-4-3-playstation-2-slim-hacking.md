@@ -3,6 +3,7 @@ layout: post
 title: Playstation 2 Slim Hacking
 tags: [Playstation, Sony]
 categories: tutorials
+banner: playstation-banner.jpg
 ---
 
 This modification to your console will let you play backed up copies of PlayStation 1 and PlayStation 2 games. This tutorial is only for the slim model.

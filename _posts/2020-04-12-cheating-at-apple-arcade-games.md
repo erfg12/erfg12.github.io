@@ -3,6 +3,7 @@ layout: post
 title: Cheating at Apple Arcade Games
 tags: [cheat engine, macos]
 categories: hacks
+banner: apple-banner.jpg
 ---
 
 There is a new version of Cheat Engine out that is compatible with the latest MacOS version. It's very stable and usable with the latest MacOS games. At the moment of this writing it is only available on the <a href="https://www.patreon.com/cheatengine" target="_blank" rel="noopener">Cheat Engine Patreon</a>.

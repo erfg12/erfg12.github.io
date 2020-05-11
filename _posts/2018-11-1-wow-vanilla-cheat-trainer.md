@@ -3,6 +3,7 @@ layout: post
 title: World of Warcraft v1.12.1 Vanilla Cheat Trainer
 tags: [World of Warcraft, Blizzard]
 categories: hacks
+banner: blizzard-banner.jpg
 ---
 
 I made a video for my project Memory.dll, the C# library to help people easily make a game cheat trainer in C#. In the video I was making a World of Warcraft Vanilla (version 1.12.1) game cheat trainer. Since the video, I've been asked to release the trainer.

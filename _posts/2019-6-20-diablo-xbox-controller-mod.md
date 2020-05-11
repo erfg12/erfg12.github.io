@@ -3,6 +3,7 @@ layout: post
 title: Diablo 1 Xbox Controller & Keyboard Mod
 tags: [Diablo, Xbox, PC]
 categories: hacks
+banner: blizzard-banner.jpg
 ---
 
 When I was trying to play Diablo 1 on my GPD Win I thought there has to be a way to incorporate controller support, similar to the Playstation 1 port. I remembered that there was an open source reverse engineered project for Diablo 1 called Devilution, so I figured that would be a good starting place for this project. After forking the repo, I started by getting familiar with the code base and creating new functions for how I would imagine this system working.

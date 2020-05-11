@@ -3,6 +3,7 @@ layout: post
 title: EverQuest Single Player
 tags: [everquest]
 categories: tutorials
+banner: everquest-banner.jpg
 ---
 
 Ever since I was young I wanted to play a single player version of EverQuest. Well today, I did just that, and I'm going to show you how you can too!

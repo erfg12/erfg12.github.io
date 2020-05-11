@@ -3,6 +3,7 @@ layout: post
 title: Diablo 3 Server Emulator
 tags: [Diablo, Blizzard]
 categories: tutorials
+banner: blizzard-banner.jpg
 ---
 
 Mooege was the only server emulator available for Diablo 3. It was developed when the closed beta was released to only family and friends. Now the Mooege project is closed and all the developers have left and abandoned the project.

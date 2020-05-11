@@ -9,8 +9,8 @@
         <time class="published" datetime="{{ post.date | date_to_string }}">{{ post.date | date_to_string }}</time>
         <a href="#" class="author"><img src="{{ site.baseurl }}/images/avatar.jpg" alt="" /></a>
     </header>
-    <a href="{{ site.baseurl }}{{ post.url }}" class="image"><img src="{{ site.baseurl }}/images/pic04.jpg"
-            alt="" /></a>
+    <a href="{{ site.baseurl }}{{ post.url }}" class="image"><img
+            src="{{ site.baseurl }}/images/banners/{{post.banner}}" alt="" /></a>
 </article>
 
 {% endfor %}
@@ -26,8 +26,8 @@
         <time class="published" datetime="{{ post.date | date_to_string }}">{{ post.date | date_to_string }}</time>
         <a href="#" class="author"><img src="{{ site.baseurl }}/images/avatar.jpg" alt="" /></a>
     </header>
-    <a href="{{ site.baseurl }}{{ post.url }}" class="image"><img src="{{ site.baseurl }}/images/pic04.jpg"
-            alt="" /></a>
+    <a href="{{ site.baseurl }}{{ post.url }}" class="image"><img
+            src="{{ site.baseurl }}/images/banners/{{post.banner}}" alt="" /></a>
 </article>
 
 {% endfor %}

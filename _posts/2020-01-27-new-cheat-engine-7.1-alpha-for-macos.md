@@ -3,6 +3,7 @@ layout: post
 title: New Cheat Engine 7.1 Alpha for MacOS
 tags: [Cheat Engine, Mac]
 categories: hacks
+banner: cheatengine-banner.jpg
 ---
 
 If you have used a Windows computer before, you know that Cheat Engine is one of the best tools for creating and sharing personal cheats for PC games with other users. Several years back there was a MacOS version made, but it lacked all the more useful functionality of the PC version. Since the Patreon for Cheat Engine was created, DarkByte, the author of Cheat Engine, has promised the MacOS version will be updated. Well just a few days ago he delivered on that promise!

@@ -3,6 +3,7 @@ layout: post
 title: Make Cheat Codes for PlayStation 3 Games
 tags: [Playstation, Sony]
 categories: hacks
+banner: playstation-banner.jpg
 ---
 
 If you're looking to create your own cheat codes for PlayStation 3 games like God of War or Call of Duty games, here's an easy to follow guide to get started.

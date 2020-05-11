@@ -3,6 +3,7 @@ layout: post
 title: Playstation 4 How To Use Homebrew And Play Backed Up Games
 tags: [Playstation, Sony]
 categories: tutorials
+banner: playstation-banner.jpg
 ---
 
 The Playstation 4 jailbreak is similar to the PSVita in that you use the webkit to exploit the console and make running your own arbitrary code on the system a reality. For this to work you need to be on a specific firmware version.

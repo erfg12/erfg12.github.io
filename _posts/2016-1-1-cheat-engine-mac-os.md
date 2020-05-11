@@ -3,6 +3,7 @@ layout: post
 title: Cheat Engine for MacOS
 tags: [Cheat Engine, Mac]
 categories: tutorials
+banner: cheatengine-banner.jpg
 ---
 
 Cheat Engine is finally available on MacOS! This seems like a beta, so there are lots of features missing and bugs to be fixed. Here is how you can get it working.

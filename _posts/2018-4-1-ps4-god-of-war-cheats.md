@@ -3,6 +3,7 @@ layout: post
 title: God Of War – PS4 Cheats
 tags: [Playstation, Cheats, God of War, Sony]
 categories: hacks
+banner: playstation-banner.jpg
 ---
 
 Here are some cheat files that were being shared around for God of War for the Playstation 4.
