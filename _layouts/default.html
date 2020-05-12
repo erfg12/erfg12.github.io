@@ -8,7 +8,8 @@
 		{% include meta.html %} {% include advertisements.html %}
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<script src="../assets/js/jquery.min.js"></script>
 	</head>
 
 	<body class="is-preload">
@@ -29,8 +30,8 @@
 					<ul>
 						<li class="search">
 							<a class="fa-search" href="#search">Search</a>
-							<form id="search" method="get" action="#">
-								<input type="text" name="query" placeholder="Search" />
+							<form id="search" method="get" action="../search">
+								<input type="text" name="q" placeholder="Search" />
 							</form>
 						</li>
 						<li class="menu">
@@ -59,7 +60,7 @@
 
 				<!-- Intro -->
 				<section id="intro">
-					<a href="#" class="logo"><img src="images/logo.svg" alt="" /></a>
+					<a href="../" class="logo"><img src="../images/logo.svg" alt="" /></a>
 					<header>
 						<h2>New Age Soldier</h2>
 						<p>A New Age of Technology</p>
@@ -83,11 +84,10 @@
 		</div>
 
 		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
+		<script src="../assets/js/browser.min.js"></script>
+		<script src="../assets/js/breakpoints.min.js"></script>
+		<script src="../assets/js/util.js"></script>
+		<script src="../assets/js/main.js"></script>
 
 		<script>
 			if ("serviceWorker" in navigator) {

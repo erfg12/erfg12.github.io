@@ -1,0 +1,58 @@
+---
+layout: default
+permalink: /search/
+title: Search
+---
+
+<h1>Search For Articles</h1>
+<div class="search_box">
+    <input type="text" id="SearchText" class="search_input" placeholder="Article Title">
+    <a href="javascript:;" title="Click Here To Search" onclick="StartSearch()">
+        <div class="search_btn">
+            🔍</div>
+    </a>
+</div>
+
+<div id="results"></div>
+
+<script>
+    $(document).ready(function () {
+        // on document enter
+        if (typeof GetVar("q") !== 'undefined') {
+            document.getElementById("SearchText").value = GetVar("q");
+            StartSearch();
+        }
+    });
+
+    // event listeners
+    $("#SearchText").on('keyup', function (e) {
+        if (e.keyCode === 13) {
+            StartSearch();
+        }
+    });
+
+    function DisplayResults(data) {
+        select = document.getElementById("results");
+        select.innerHTML = "";
+        var objs = JSON.parse(JSON.stringify(data));
+        objs["items"].forEach((item, index) => {
+            select.innerHTML += "<div>👁‍🗨 <a href=\"" + item["link"] + "\">" + item["title"] + "</a></div>";
+        });
+    }
+
+    function StartSearch() {
+        document.getElementById("results").innerHTML = "LOADING...";
+        $.ajax({
+            url: 'https://www.googleapis.com/customsearch/v1/siterestrict?key=AIzaSyBUe82UiAZdGakcJhL6POQrTQsbZiuQncI&cx=007708408954212194688:fuz80ikplck&excludeTerms=sitemap&q=' + document.getElementById("SearchText").value,
+            type: 'GET',
+            dataType: "json",
+            success: DisplayResults
+        });
+    }
+
+    function GetVar(name) {
+        if (name = (new RegExp('[?&]' + encodeURIComponent(name) + '=([^&]*)')).exec(location.search))
+            return decodeURIComponent(name[1]);
+    }
+
+</script>

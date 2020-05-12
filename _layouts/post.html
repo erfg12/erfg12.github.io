@@ -27,8 +27,8 @@
 					<ul>
 						<li class="search">
 							<a class="fa-search" href="#search">Search</a>
-							<form id="search" method="get" action="#">
-								<input type="text" name="query" placeholder="Search" />
+							<form id="search" method="get" action="../search">
+								<input type="text" name="q" placeholder="Search" />
 							</form>
 						</li>
 						<li class="menu">
@@ -47,12 +47,16 @@
 
 			<!-- Main -->
 			<div id="main">
-
-				<a href="#" onclick="history.back()" style="width:150px;">
-					<div
-						style="padding:5px;background-color:white;border:thin solid #ccc;width:150px;text-align:center;font-weight:bold;">
-						👈 GO BACK</div>
-				</a>
+				<div style="width:100%;clear:both">
+					<a href="#" onclick="history.back()" title="Go Back">
+						<div class="emoji_nav_btn">
+							👈 </div>
+					</a>
+					<a href="#" onclick="location.reload()" title="Reload Page">
+						<div class="emoji_nav_btn">
+							🌀 </div>
+					</a>
+				</div>
 
 				<!-- Post -->
 				<article class="post">

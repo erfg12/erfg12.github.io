@@ -3108,6 +3108,29 @@ input, select, textarea {
 
 /* Header */
 
+.emoji_nav_btn {
+	padding:5px;
+	background-color:white;
+	border:thin solid #ccc;
+	width:100px;
+	text-align:center;
+	font-weight:bold;
+	font-size:30px;
+	display:inline-block;
+}
+
+.search_box .search_btn {
+	font-size:30px;margin:0px;padding:0px;float:right;border:thin solid black;background-color:white;width:10%;min-width:40px;text-align:center;
+}
+
+.search_box .search_input {
+	width:90%;float:left;border:thin solid black;height:54px;color:white;
+}
+
+.search_box {
+	display:inline-block;width:100%;background-color:grey;height:54px;
+}
+
 	body {
 		padding-top: 3.5em;
 	}
