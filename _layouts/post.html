@@ -48,6 +48,12 @@
 			<!-- Main -->
 			<div id="main">
 
+				<a href="#" onclick="history.back()" style="width:150px;">
+					<div
+						style="padding:5px;background-color:white;border:thin solid #ccc;width:150px;text-align:center;font-weight:bold;">
+						👈 GO BACK</div>
+				</a>
+
 				<!-- Post -->
 				<article class="post">
 					<header>
@@ -57,7 +63,7 @@
 						<div class="meta">
 							<time class="published"
 								datetime="{{ page.date }}">{{ page.date | date: "%B %e, %Y" }}</time>
-							<a href="#" class="author"><span class="name">Jake</span><img
+							<a class="author"><span class="name">Jake</span><img
 									src="{{ site.baseurl }}/images/avatar.jpg" alt="" /></a>
 						</div>
 					</header>
@@ -66,7 +72,8 @@
 					<p>{{ content }}</p>
 					<footer>
 						<ul class="stats">
-							<li><a href="{{ site.baseurl }}/{{ page.categories }}">{{ page.categories }}</a></li>
+							<li><a href="{{ site.baseurl }}/{{ page.categories }}">{{ page.categories }}</a>
+							</li>
 						</ul>
 					</footer>
 				</article>
