@@ -3,6 +3,7 @@ layout: post
 title: Setting Up Super Smash Bros Legacy XP
 tags: [Nintendo, Smash Brothers]
 categories: tutorials
+banner: nintendo-banner.jpg
 ---
 
 There are 2 methods to setting up Super Smash Bros Legacy XP. The modded and non-modded methods.

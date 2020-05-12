@@ -3,6 +3,7 @@ layout: post
 title: Clan Mod - The Jedi Knight Mod
 tags:
 categories: hacks
+banner: windows-banner.jpg
 ---
 
 From my early days as a developer, I loved playing the Jedi Knight series. Specifically Academy and Outcast. When playing Jedi Outcast with my new founded clan RoAR (Rebels of Another Realm), we found it necessary to use a mod to help us grow closer and enforce rules. At that time we used Jedi Academy mod (not the second game) that was developed by TheChosenOne. A very well developed mod, few bugs, overall a nice piece of software. Later, we moved on to Slider’s JA+ mod. Once again a nice mod, but this one was riddled with 1 hit kill bugs, and glitches galor! I had to make a better mod!

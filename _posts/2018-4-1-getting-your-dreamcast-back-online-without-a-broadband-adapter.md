@@ -3,6 +3,7 @@ layout: post
 title: Getting Your Dreamcast Online, Without A Broadband Adapter!
 tags: [Sega, Dreamcast]
 categories: tutorials
+banner: sega-banner.jpg
 ---
 
 Few people these days have dial up internet. Most everyone has ethernet cables with broadband, which leaves older technology behind. Even with the addition of the broadband adapter, you will not be able to play some games that require the dial up modem. Luckily there is a new developer out there to bring the Dreamcast back online with the use of a Raspberry Pi!

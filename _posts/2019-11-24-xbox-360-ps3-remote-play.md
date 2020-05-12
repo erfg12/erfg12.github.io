@@ -3,6 +3,7 @@ layout: post
 title: Xbox 360 and PS3 (1080p + all games) Remote Play Streaming
 tags: [GPDWin]
 categories: tutorials
+banner: xbox-banner.jpg
 ---
 
 ## Required Hardware

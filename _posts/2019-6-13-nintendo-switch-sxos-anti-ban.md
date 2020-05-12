@@ -3,6 +3,7 @@ layout: post
 title: Nintendo Switch SX OS How To Not Get Banned
 tags: [Nintendo, Switch, SX OS]
 categories: tutorials
+banner: nintendo-banner.jpg
 ---
 
 For a while I was in the dark about what could get you banned from Nintendo's online services while using Team Xecuter's SX OS. After lots of trial and error, and finally a console ban, here is what I've learned from my experiences.

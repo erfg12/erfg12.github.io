@@ -3,6 +3,7 @@ layout: post
 title: How to Minimize Discord on Startup
 tags:
 categories: tutorials
+banner: windows-banner.jpg
 ---
 
 Here's a batch file that will minimize Discord on startup. There is a small setup needed to do this though.

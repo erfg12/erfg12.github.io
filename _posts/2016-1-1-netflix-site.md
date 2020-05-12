@@ -3,6 +3,7 @@ layout: post
 title: Netflix Site
 tags:
 categories: hacks
+banner: windows-banner.jpg
 ---
 
 This is a PHP web program you can use to make your own Netflix look-a-like website. It runs completely on PHP, no database setup required. All information and photos are pulled from IMDb.

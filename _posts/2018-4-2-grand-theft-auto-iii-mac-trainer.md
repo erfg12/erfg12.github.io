@@ -3,6 +3,7 @@ layout: post
 title: Grand Theft Auto III – Mac Cheats
 tags: [Grand Theft Auto, Mac, Cheats]
 categories: hacks
+banner: apple-banner.jpg
 ---
 
 - Refill ammo

@@ -3,6 +3,7 @@ layout: post
 title: Windows 95, 98, XP, Vista And 7 Themes For Windows 10
 categories: tutorials
 tags: [Windows, Microsoft]
+banner: windows-banner.jpg
 redirect_from:
   - "/windows-xp-theme-for-windows-10/"
   - "/windows-vista-theme-for-windows-10/"

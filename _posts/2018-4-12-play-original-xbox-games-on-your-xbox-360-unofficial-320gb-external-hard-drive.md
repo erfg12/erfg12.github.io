@@ -3,6 +3,7 @@ layout: post
 title: Play Original Xbox Games On Your XBox 360 Unofficial Hard Drive
 tags: [Xbox, Microsoft]
 categories: tutorials
+banner: xbox-banner.jpg
 ---
 
 Lets say you purchased an unofficial xbox 360 hard drive and you want to play your original Xbox games on your Xbox 360. Well, you can’t without this program and a special partition file that allows you to create the data required for playing these games!

@@ -3,6 +3,7 @@ layout: post
 title: Nintendo Switch SX OS Easy Universal OS Activation System
 tags: [Nintendo, Switch, SX OS]
 categories: tutorials
+banner: nintendo-banner.jpg
 ---
 
 I have a few Windows 10 PCs and a Macbook that I use for software development. Sometimes I need to update my Nintendo Switch games for my SX OS. I know there are some other meathods of transferring games, but this seems to be the fastest method. Also when updating SX OS the system needs to reboot as well.
