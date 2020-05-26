@@ -24,7 +24,7 @@ Ever since I was young I wanted to play a single player version of EverQuest. We
 
 ### Steps
 
-1. [Install EQEmu](https://eqemu.gitbook.io/server/categories/how-to-guides/installation/server-installation-windows)  - This is our EverQuest server.
+1. [Install EQEmu](https://eqemu.gitbook.io/server/categories/installation/server-installation-windows)  - This is our EverQuest server.
 2. Open eqemu_server.pl file, type in `setup_loginserver`, then type in `setup_bots`, then type in `database`, then type in `check_bot_db_updates`. Bots and local login server are now setup.
 3. Install [MySQL WorkBench](https://dev.mysql.com/downloads/workbench/). First, click Edit > Preferences... > SQL Editor > (scroll down) Uncheck Safe Updates. Restart MySQL WorkBench. Double click on the first entry. Username is root, password is eqemu (lowercase). Click on the Schemas tab. Right click on PEQ > Set as Default Schema. [Here is the SQL Statements you would want to run](https://gist.github.com/erfg12/75e3dc772a0c9a5e432aec013e748cdb). Click the yellow lightning bolt above to run the update statements.
 4. Download and install [EverQuest RoF2 client](https://archive.org/details/everquest_rof2). Open your EverQuest game folder, make a shortcut of EQGame.exe onto your desktop. Right click on EQGame.exe > Properties > add `patchme` to the end of your Target.
