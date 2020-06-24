@@ -50,6 +50,9 @@ url:
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+# Folders with dotfiles are ignored by default.
+include: [.well-known]
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
