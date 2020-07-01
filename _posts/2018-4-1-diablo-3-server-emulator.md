@@ -18,4 +18,4 @@ PLEASE NOTE: To my knowledge this is a clean beta client, but you will be using 
 
 DOWNLOAD BETA GAME CLIENT! – [MEGA](https://mega.nz/#!Mc9TVApK!5RKmgCvbhNzlLdmCQYEiKjvrevyslX470LQ7sLDpK0c) - [GDRIVE](https://drive.google.com/open?id=0B4YtK9YXaHvQc1l0OUxfYnpvNU0)
 
-<iframe style="width:350px; height:350px;" src="https://www.youtube.com/embed/ppdLSg1sAc0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="width:360px;height:320px;" src="https://www.youtube.com/embed/ppdLSg1sAc0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
