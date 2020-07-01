@@ -13,9 +13,7 @@ The zip packages on this page have assets and documents for theming a Windows 10
 
 The demigod program provided in the zip may give you errors or warnings when customizing some of the system tray icons, and this is an issue I have seen before. Simply ignoring the errors and warnings will still change the icons. If there is a major Windows update, these will probably revert back to their original icon images, so you will have to re-apply them.
 
-<div class='video'>
-<a href='https://www.youtube.com/watch?v=eN4ajmEyiDU' title='Click here to watch the video!' target='_BLANK'><i class="svg-icon youtube"></i><div class="play"></div><img src="https://img.youtube.com/vi/eN4ajmEyiDU/0.jpg" /></a>
-</div>
+<iframe style="width: 87%; height: 87%;" src="https://www.youtube.com/embed/eN4ajmEyiDU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 NOTE: These zip packages are specifically for Windows 10. All files must be permanently on your HDD. Do not delete them after customization!
 
