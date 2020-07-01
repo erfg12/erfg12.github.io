@@ -7,7 +7,7 @@
     <header>
         <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
         <time class="published" datetime="{{ post.date | date_to_string }}">{{ post.date | date_to_string }}</time>
-        <a href="#" class="author"><img src="{{ site.baseurl }}/images/avatar.jpg" alt="" /></a>
+        <a href="#" class="author"><img src="{{ site.baseurl }}/images/avatar.jpg" loading="lazy" alt="" /></a>
     </header>
     <a href="{{ site.baseurl }}{{ post.url }}" class="image"><img
             src="{{ site.baseurl }}/images/banners/{{post.banner}}" alt="" /></a>
@@ -24,10 +24,10 @@
     <header>
         <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
         <time class="published" datetime="{{ post.date | date_to_string }}">{{ post.date | date_to_string }}</time>
-        <a href="#" class="author"><img src="{{ site.baseurl }}/images/avatar.jpg" alt="" /></a>
+        <a href="#" class="author"><img src="{{ site.baseurl }}/images/avatar.jpg" loading="lazy" alt="" /></a>
     </header>
     <a href="{{ site.baseurl }}{{ post.url }}" class="image"><img
-            src="{{ site.baseurl }}/images/banners/{{post.banner}}" alt="" /></a>
+            src="{{ site.baseurl }}/images/banners/{{post.banner}}" loading="lazy" alt="" /></a>
 </article>
 
 {% endfor %}
