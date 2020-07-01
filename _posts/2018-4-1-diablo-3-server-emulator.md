@@ -18,6 +18,4 @@ PLEASE NOTE: To my knowledge this is a clean beta client, but you will be using 
 
 DOWNLOAD BETA GAME CLIENT! – [MEGA](https://mega.nz/#!Mc9TVApK!5RKmgCvbhNzlLdmCQYEiKjvrevyslX470LQ7sLDpK0c) - [GDRIVE](https://drive.google.com/open?id=0B4YtK9YXaHvQc1l0OUxfYnpvNU0)
 
-<div class='video'>
-<a href='https://www.youtube.com/watch?v=ppdLSg1sAc0' title='Click here to watch the video!' target='_BLANK'><i class="svg-icon youtube"></i><div class="play"></div><img src="https://img.youtube.com/vi/ppdLSg1sAc0/0.jpg" /></a>
-</div>
+<iframe style="max-width: %87; max-height: %87;" src="https://www.youtube.com/embed/ppdLSg1sAc0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
