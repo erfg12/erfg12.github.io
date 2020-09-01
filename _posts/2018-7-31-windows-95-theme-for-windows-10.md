@@ -17,13 +17,18 @@ The demigod program provided in the zip may give you errors or warnings when cus
 
 NOTE: These zip packages are specifically for Windows 10. All files must be permanently on your HDD. Do not delete them after customization!
 
-[Windows XP Theme Files](https://newagesoldier.b-cdn.net/downloads/WIN%20XP%20THEME.zip)
+[Windows XP Theme Files](https://github.com/erfg12/WinXP_Theme/archive/master.zip)
 
-[Windows Vista Theme Files](https://newagesoldier.b-cdn.net/downloads/WIN%20VISTA%20THEME.zip)
+[Windows Vista Theme Files](https://github.com/erfg12/WinVista_Theme/archive/master.zip)
 
-[Windows 95 & 98 Theme Files](https://newagesoldier.b-cdn.net/downloads/WIN%209X%20THEME.zip)
+[Windows 95 & 98 Theme Files](https://github.com/erfg12/Win9x_Theme/archive/master.zip)
 
-Want to change the boot screen? [I made this pack to customize it!](https://newagesoldier.b-cdn.net/downloads/win10%20bootup%20screen%20changer.zip)
+Want to change the boot screen? [I made this pack to customize it!](https://github.com/erfg12/Windows10_Boot_Changer/archive/master.zip)
 **NOTE:** You do need UEFI mode enabled with Secure Boot disabled for this to function.
 
 Want an America Online web browser? [I made a Chromium web browser look like AOL!](https://github.com/erfg12/AOL_4.0_Emu)
+
+- [Windows XP Theme Repo](https://github.com/erfg12/WinXP_Theme)
+- [Windows Vista Theme Repo](https://github.com/erfg12/WinVista_Theme)
+- [Windows 95 & 98 Theme Repo](https://github.com/erfg12/Win9x_Theme)
+- [Windows 10 Bootup Customizer Repo](https://github.com/erfg12/Windows10_Boot_Changer)
