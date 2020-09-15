@@ -24,9 +24,8 @@ NOTE: These zip packages are specifically for Windows 10. All files must be perm
 [Windows 95 & 98 Theme Files](https://github.com/erfg12/Win9x_Theme/archive/master.zip)
 
 Want to change the boot screen? [I made this pack to customize it!](https://github.com/erfg12/Windows10_Boot_Changer/archive/master.zip)
-**NOTE:** You do need UEFI mode enabled with Secure Boot disabled for this to function.
 
-Want an America Online web browser? [I made a Chromium web browser look like AOL!](https://github.com/erfg12/AOL_4.0_Emu)
+Want an America Online themed web browser? [I made a Chromium web browser look like AOL!](https://github.com/erfg12/AOL_4.0_Emu)
 
 - [Windows XP Theme Repo](https://github.com/erfg12/WinXP_Theme)
 - [Windows Vista Theme Repo](https://github.com/erfg12/WinVista_Theme)
