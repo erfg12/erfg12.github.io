@@ -14,6 +14,5 @@ Another fun feature is you can have NPC wars! Spawn a Desann army to fight the K
 
 After a few months of development, and several tests, it was ready to release! I gave out the build to jk3files.com, and had several revisions. And finally, give the community the open source builds that it deserved to have in the first place.
 
-– For hosting a Jedi Academy server (https://github.com/erfg12/clanmod-jka)[visit this GitHub repo]
-
-- For hosting a Jedi Outcast server (https://github.com/erfg12/clanmod-jko)[visit this GitHub repo]
+- Jedi Academy Mod [visit this GitHub repo](https://github.com/erfg12/clanmod-jka)
+- Jedi Outcast Mod [visit this GitHub repo](https://github.com/erfg12/clanmod-jko)
