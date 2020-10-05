@@ -9,19 +9,17 @@ redirect_from:
   - "/windows-vista-theme-for-windows-10/"
 ---
 
-The zip packages on this page have assets and documents for theming a Windows 10 computer to look like an older operating system. Watch the YouTube video and read the documentation provided to get an understanding of how this process works. If at any time you want to undo the theme, simply follow the process backwards. For example, uninstalling Windows Classic Shell or restoring the desktop icons or changing the desktop wallpaper back to whatever you had prior to this process. None of this will be perminant, everything can easily be undone.
+The zip packages on this page have assets and documents for theming a Windows 10 computer to look like an older operating system. Watch the YouTube video and read the documentation provided to get an understanding of how this process works. If at any time you want to undo the theme, uninstall Classic-Shell and run the Uninstall-Theme.bat file.
 
-The demigod program provided in the zip may give you errors or warnings when customizing some of the system tray icons, and this is an issue I have seen before. Simply ignoring the errors and warnings will still change the icons. If there is a major Windows update, these will probably revert back to their original icon images, so you will have to re-apply them.
+The demigod customizer program may give you errors or warnings when customizing some of the system tray icons, and this is an issue I have seen before.
 
 <iframe style="width:360px;height:320px;" src="https://www.youtube.com/embed/eN4ajmEyiDU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-NOTE: These zip packages are specifically for Windows 10. All files must be permanently on your HDD. Do not delete them after customization!
+Lots of changes have been made prior to the video. Please, open the README.md file with notepad or wordpad and follow the instructions provided.
 
-[Windows XP Theme Files](https://github.com/erfg12/WinXP_Theme/archive/master.zip)
-
-[Windows Vista Theme Files](https://github.com/erfg12/WinVista_Theme/archive/master.zip)
-
-[Windows 95 & 98 Theme Files](https://github.com/erfg12/Win9x_Theme/archive/master.zip)
+- [Windows XP Theme Files](https://github.com/erfg12/WinXP_Theme/archive/master.zip)
+- [Windows Vista Theme Files](https://github.com/erfg12/WinVista_Theme/archive/master.zip)
+- [Windows 95 & 98 Theme Files](https://github.com/erfg12/Win9x_Theme/archive/master.zip)
 
 Want to change the boot screen? [I made this pack to customize it!](https://github.com/erfg12/Windows10_Boot_Changer/archive/master.zip)
 
