@@ -17,15 +17,8 @@ The demigod customizer program may give you errors or warnings when customizing 
 
 Lots of changes have been made prior to the video. Please, open the README.md file with notepad or wordpad and follow the instructions provided.
 
-- [Windows XP Theme Files](https://github.com/erfg12/WinXP_Theme/archive/master.zip)
-- [Windows Vista Theme Files](https://github.com/erfg12/WinVista_Theme/archive/master.zip)
-- [Windows 95 & 98 Theme Files](https://github.com/erfg12/Win9x_Theme/archive/master.zip)
+[Windows 9x, Vista & XP Theme Files](https://github.com/erfg12/WinRetro_Themes/archive/master.zip), [Code Repo](https://github.com/erfg12/WinRetro_Themes)
 
 Want to change the boot screen? [I made this pack to customize it!](https://github.com/erfg12/Windows10_Boot_Changer/archive/master.zip)
 
 Want an America Online themed web browser? [I made a Chromium web browser look like AOL!](https://github.com/erfg12/AOL_4.0_Emu)
-
-- [Windows XP Theme Repo](https://github.com/erfg12/WinXP_Theme)
-- [Windows Vista Theme Repo](https://github.com/erfg12/WinVista_Theme)
-- [Windows 95 & 98 Theme Repo](https://github.com/erfg12/Win9x_Theme)
-- [Windows 10 Bootup Customizer Repo](https://github.com/erfg12/Windows10_Boot_Changer)
