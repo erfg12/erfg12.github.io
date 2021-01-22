@@ -38,6 +38,7 @@ Express: ≥ 985 MB/s full-duplex
 2. Format your storage media device (ex: Our SD Card) to be FAT32 or NTFS. Note that FAT32 has a restriction of file sizes over 4GB. I recommend NTFS.
 3. You will use Cameyo Packager or VMWare ThinApp to create a packaged (containorized) version of your game. If it's an older DOS game, you can use scripts to auto launch DOSBox with your game in a .bat (batch) file.
 4. Place your containorized game with any required files onto your storage media device, and create a new file in the root of the drive called `Autorun.inf`. This will make our game automatically launch when you insert the game into our Windows computer.
+5. This is optional, but you may want to go into your `Settings > Devices > Autoplay` and change the dropdown boxes to `Take no action` to prevent a file explorer window from opening upon insertion.
 
 ### Autorun.inf Structure
 ```
