@@ -1,4 +1,4 @@
-I"�<p>If you have HENKaku on your PSVita and use something like PKGj to get your games, DLC, etc. you may see a (3.61+) in the content’s title. This is because HENKaku can only be installed on PSVita or PSTV systems that are at 3.60 firmware version. You can technically update from 3.60 to 3.65 once you have HENKaku installed. But still newer games or updates will sometimes require 3.67 or 3.69 firmware versions.</p>
+I"A	<p>If you have HENKaku on your PSVita and use something like PKGj to get your games, DLC, etc. you may see a (3.61+) in the content’s title. This is because HENKaku can only be installed on PSVita or PSTV systems that are at 3.60 firmware version. You can technically update from 3.60 to 3.65 once you have HENKaku installed. But still newer games or updates will sometimes require 3.67 or 3.69 firmware versions.</p>
 
 <p>Luckily there is a solution! If you update PKGj homebrew to the latest version, and install the plugin rePatch <em>(rePatch-reDux0)</em>, you can add a url_comppack variable to your config.txt file which lets you install a compatibility pack so you can play those games on your older firmware consoles!</p>
 
@@ -7,16 +7,16 @@
 <ol>
   <li>FTP to your console via VitaShell (press Select). Create the folder ux0:rePatch.</li>
   <li>Install or update PKGj with the official <a href="https://github.com/blastrock/pkgj/releases">PKGJ.vpk</a>. Press X to install it in VitaShell.</li>
-  <li>Download this <a href="https://psvitamod.com/wp-content/uploads/2018/12/config.txt">config.txt</a>. Transfer it to your <code class="highlighter-rouge">ux0:rePatch</code> folder.</li>
-  <li>Download this <a href="https://github.com/dots-tb/rePatch-reDux0/releases">repatch.skprx</a>. Transfer it to your <code class="highlighter-rouge">ux0:tai</code> folder.</li>
+  <li>Download this <a href="https://psvitamod.com/wp-content/uploads/2018/12/config.txt">config.txt</a>. Transfer it to your <code class="language-plaintext highlighter-rouge">ux0:rePatch</code> folder.</li>
+  <li>Download this <a href="https://github.com/dots-tb/rePatch-reDux0/releases">repatch.skprx</a>. Transfer it to your <code class="language-plaintext highlighter-rouge">ux0:tai</code> folder.</li>
 </ol>
 
 <ul>
-  <li>If you do not have <a href="https://github.com/TheOfficialFloW/NoNpDrm/releases">NoNpDRM plugin</a> installed, do so now and add it to your <code class="highlighter-rouge">ux0:tai/config.txt</code> file with step 5. I assume it is already installed.</li>
+  <li>If you do not have <a href="https://github.com/TheOfficialFloW/NoNpDrm/releases">NoNpDRM plugin</a> installed, do so now and add it to your <code class="language-plaintext highlighter-rouge">ux0:tai/config.txt</code> file with step 5. I assume it is already installed.</li>
 </ul>
 
 <ol>
-  <li>Edit your <code class="highlighter-rouge">ux0:tai/config.txt</code> file <em>(press triangle &gt; Edit)</em>, below the *KERNEL section, type in <code class="highlighter-rouge">ux0:tai/repatch.skprx</code>, save and close. Restart your console.</li>
+  <li>Edit your <code class="language-plaintext highlighter-rouge">ux0:tai/config.txt</code> file <em>(press triangle &gt; Edit)</em>, below the *KERNEL section, type in <code class="language-plaintext highlighter-rouge">ux0:tai/repatch.skprx</code>, save and close. Restart your console.</li>
 </ol>
 
 <p>Now open PKGj and select a 3.61+ game or DLC to install. You will see in red text that it is not compatible with your Vita. But now you should see a download compatibility pack option. After you select this, you will now get green status text. You can now install and use the content!</p>

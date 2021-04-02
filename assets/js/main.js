@@ -29,6 +29,7 @@
 	});
 
 	// Menu.
+	$(document).ready(function() {
 	$menu
 		.appendTo($body)
 		.panel({
@@ -41,6 +42,7 @@
 			target: $body,
 			visibleClass: 'is-menu-visible'
 		});
+	});
 
 	// Search (header).
 	var $search = $('#search'),

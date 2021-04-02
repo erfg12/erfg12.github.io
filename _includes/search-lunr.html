@@ -28,6 +28,16 @@
 	        this.add(doc)
 	    }, this)
 	});
+
+	function getQuery(q) {
+		return (window.location.search.match(new RegExp('[?&]' + q + '=([^&]+)')) || [, null])[1];
+	}
+
+	if (document. readyState === 'complete') {
+		if (getQuery('q') !== 'undefined')
+			lunr_search(getQuery('q'));
+	}
+
 	function lunr_search(term) {
 	    document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
 	    if(term) {
